@@ -19,4 +19,4 @@ It was built with Izenda's EmbeddedUI and API version 2.5.0.
 
 Reports and dashboards seen in sample materials were designed by me against the AdventureWorks sample database from Microsoft.
 
-You will need to deploy an API, configuration database, and AdvenbtureWorks database to run this instance and replicate what is seen in sample materials.
+You will need to deploy an API, configuration database, and AdventureWorks database to run this instance and replicate what is seen in sample materials.
