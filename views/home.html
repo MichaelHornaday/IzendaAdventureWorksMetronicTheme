@@ -1,0 +1,201 @@
+<!-- BEGIN PAGE BREADCRUMB -->
+<!-- END PAGE BREADCRUMB -->
+<!-- BEGIN MAIN CONTENT -->
+<div ng-controller="GeneralPageController">
+    <!-- <div class="note note-info">
+         <h3>Meet Adventure Works!
+             <span class="close" data-close="note"></span>
+         </h3>
+         <p> This is an example of what an integration with Izenda. </p>
+     </div>-->
+    <!-- BEGIN DASHBOARD STATS-->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="portlet light bordered " style="min-height: 220px;">
+                <div class="portlet-title">
+                    <div class="caption caption-md">
+                        <i class="fa fa-bar-chart font-blue"></i>
+                        <span class="caption-subject font-blue bold uppercase">Sales KPI</span>
+                        <span class="caption-helper hide">weekly stats...</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="izenda-part2" style="height: 132px;"> </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="izenda-part3" style="height: 132px"> </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="izenda-part4" style="height: 132px"> </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="izenda-part5" style="height: 132px"> </div>
+            </div>
+        </div>
+    </div>
+    <!-- END DASHBOARD STATS -->
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <!-- BEGIN PORTLET-->
+            <div class="portlet light bordered ">
+                <div class="portlet-title">
+                    <div class="caption caption-md">
+                        <i class="fa fa-shopping-cart font-green"></i>
+                        <span class="caption-subject font-green bold uppercase">Sales Summary</span>
+                        <span class="caption-helper hide">weekly stats...</span>
+                    </div>
+                    <div class="actions">
+                        <div class="btn-group btn-group-devided" data-toggle="buttons">
+                            <label class="btn dark btn-outline btn-circle btn-sm active">
+                                <input type="radio" name="options" class="toggle" id="option1">Today
+                            </label>
+                            <label class="btn dark btn-outline btn-circle btn-sm">
+                                <input type="radio" name="options" class="toggle" id="option2">Week
+                            </label>
+                            <label class="btn dark btn-outline btn-circle btn-sm">
+                                <input type="radio" name="options" class="toggle" id="option2">Month
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="portlet-body">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3 col-xs-6" id="izenda-part6" style="height: 50px; width: 200px;"></div>
+                        <div class="col-md-3 col-sm-3 col-xs-6" id="izenda-part7" style="height: 50px;"></div>
+                        <div class="col-md-3 col-sm-3 col-xs-6" id="izenda-part8" style="height: 50px;"></div>
+                        <div class="col-md-3 col-sm-3 col-xs-6" id="izenda-part9" style="height: 50px; width: 150px;"></div>
+                    </div>
+                    <div id="izenda-part1" style="height: 475px;"> </div>
+                </div>
+            </div>
+            <!-- END PORTLET-->
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <!-- BEGIN PORTLET-->
+            <div class="portlet light bordered ">
+                <div class="portlet-title">
+                    <div class="caption caption-md">
+                        <i class="fa fa-bullseye font-red"></i>
+                        <span class="caption-subject font-red bold uppercase">Sales Rep Activity</span>
+                        <span class="caption-helper hide">weekly stats...</span>
+                    </div>
+                    <div class="actions">
+                        <div class="btn-group btn-group-devided" data-toggle="buttons">
+                            <label class="btn green btn-outline btn-circle btn-sm active">
+                                <input type="radio" name="options" class="toggle" id="option1">Today
+                            </label>
+                            <label class="btn red btn-outline btn-circle btn-sm">
+                                <input type="radio" name="options" class="toggle" id="option2">Week
+                            </label>
+                            <label class="btn blue btn-outline btn-circle btn-sm">
+                                <input type="radio" name="options" class="toggle" id="option2">Month
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="portlet-body">
+                    <div class="row number-stats margin-bottom-30">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <div class="stat-left">
+                                <div class="stat-chart">
+                                    <div id="izenda-part10" style="height: 250px; width: 215px;"></div>
+                                </div>
+                                <div class="stat-number">
+                                    <div id="izenda-part12" style="height: 150px;width: 100px; margin: auto;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <div class="stat-right">
+                                <div class="stat-chart">
+                                    <div id="izenda-part11" style="height: 250px; width: 200px;"></div>
+                                </div>
+                                <div class="stat-number">
+                                    <div id="izenda-part13" style="height: 150px;width: 100px;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="izenda-part14" style="height: 240px;width: 750px;"></div>
+                </div>
+            </div>
+        </div>
+        <!-- END PORTLET-->
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 col-sm-12">
+        <!-- BEGIN PORTLET-->
+        <div class="portlet light bordered tasks-widget">
+            <div class="portlet-title">
+                <div class="caption caption-md">
+                    <i class="fa fa-globe font-purple"></i>
+                    <span class="caption-subject font-purple bold uppercase">GLOBAL</span>
+                </div> 
+            </div>
+            <div class="portlet-body">
+                <div id="izenda-part15" style="height: 450px;width: 750px;"></div>
+            </div>
+        </div>
+        <!-- END PORTLET-->
+    </div>
+    <div class="col-md-6 col-sm-12">
+        <!-- BEGIN PORTLET-->
+        <div class="portlet light bordered tasks-widget">
+            <div class="portlet-title">
+                <div class="caption caption-md">
+                    <i class="fa fa-globe font-purple"></i>
+                    <span class="caption-subject font-purple bold uppercase">United States</span>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <div id="izenda-part16" style="height: 450px;width: 750px;"></div>
+            </div>
+        </div>
+        <!-- END PORTLET-->
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 col-sm-12">
+        <!-- BEGIN PORTLET-->
+        <div class="portlet light bordered tasks-widget">
+            <div class="portlet-title">
+                <div class="caption caption-md">
+                    <i class="fa fa-globe font-purple"></i>
+                    <span class="caption-subject font-purple bold uppercase">Customers</span>
+                </div> 
+            </div>
+            <div class="portlet-body">
+                <div id="izenda-part17" style="height: 450px;width: 750px;"></div>
+            </div>
+        </div>
+        <!-- END PORTLET-->
+    </div>
+    <div class="col-md-6 col-sm-12">
+        <!-- BEGIN PORTLET-->
+        <div class="portlet light bordered tasks-widget">
+            <div class="portlet-title">
+                <div class="caption caption-md">
+                    <i class="fa fa-globe font-purple"></i>
+                    <span class="caption-subject font-purple bold uppercase">Stores</span>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <div id="izenda-part18" style="height: 450px;width: 750px;"></div>
+            </div>
+        </div>
+        <!-- END PORTLET-->
+    </div> 
+</div>
+<!-- END MAIN CONTENT -->
+<!-- BEGIN MAIN JS & CSS -->
+<style>
+    .izenda-ChartContainer .izenda-Wrapper {
+        background: #FFF !important;
+    }
+
+    .izenda {
+        background: #FFF !important;
+    }
+</style>
+<script type="text/javascript">
+        $(document).ready(function () {
+            DoIzendaConfig();
+            izendaInitHome(); 
+        });
+</script>
+<!-- BEGIN MAIN JS & CSS -->
+

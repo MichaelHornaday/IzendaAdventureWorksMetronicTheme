@@ -1,0 +1,425 @@
+/*Izenda Blessed Edits Begin */
+.izenda-MainContent {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  vertical-align: top;
+  display: table-cell !important;
+  background-color: #FFF;
+  border: 2px solid #E9ECF3;
+  border-radius: 8px;
+  padding: 15px;
+}
+.izenda .category-tree .collapsible-list-items.panel-group {
+  color: #333;
+}
+
+.izenda .category-tree .btn-icon {
+  background: none;
+  border: none;
+  color: #E9ECF3;
+}
+.izenda .progress-bar.progress-bar-striped.active {
+  border-radius: 4px;
+  background-clip: padding-box;
+  height: 10px;
+  background-color: #5B9BD1;
+  background-image: -webkit-linear-gradient(45deg, rgba(255,255,255,0.7) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0.7) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255,255,255,0.7) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0.7) 75%, transparent 75%, transparent);
+}
+.izenda-ScrollBox {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.izenda-Fullscreen {
+  background-color: #E9ECF3;
+}
+.izenda-TopMenu {
+  display: table;
+  width: 100%;
+  height: 44px;
+  background-color: #E9ECF3;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.izenda-TopMenu .izenda-TopMenu-logo {
+  height: 100%;
+  display: table-cell;
+  width: 250px;
+  visibility: hidden;
+  background: url(assets/logo-white.png?2T4LJ3Y) left center no-repeat;
+}
+.izenda-TopMenu .izenda-TopMenu-nav li:hover>a,
+.izenda-TopMenu .izenda-TopMenu-nav li:focus>a,
+.izenda-TopMenu .izenda-TopMenu-nav li.active>a {
+  color: #5B9BD1;
+  background-color: #FFFFFF;
+}
+.izenda-TopMenu .izenda-TopMenu-nav ul>li>a {
+  padding: 8px 10px;
+  display: inline-block;
+  margin-right: 1px;
+  background-color: #FFFFFF;
+  color: #485a6a;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.izenda-TopMenu .izenda-TopMenu-nav ul>li>a.active,
+.izenda-TopMenu .izenda-TopMenu-nav ul>li>a:hover,
+.izenda-TopMenu .izenda-TopMenu-nav ul>li>a:focus {
+  color: #5B9BD1;
+  background-color: #fff;
+}
+.izenda-TopMenu .izenda-TopMenu-nav[aria-expanded="false"]+.navbar-header {
+    background: #5B9BD1;
+  }
+.izenda-MiddlePanel {
+  display: table-cell;
+  height: 100%;
+  position: relative;
+  vertical-align: top;
+  width: 250px;
+  border-top-right-radius: 8px;
+  background-clip: padding-box;
+  border-bottom-right-radius: 4px;
+  background-clip: padding-box;
+  border: 1px solid #e4e4e4;
+  border-radius: 8px;
+}
+.izenda-Sidebar {
+  height: 100%;
+  display: table-cell;
+  position: relative;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+  border: 2px solid #E9ECF3;
+}
+.izenda-Sidebar>div {
+  background: #FFF;
+  border-top-left-radius: 4px;
+  background-clip: padding-box;
+  border-bottom-left-radius: 4px;
+  background-clip: padding-box;
+}
+
+.izenda-Sidebar .collapsible {
+  padding: 10px;
+  padding-left: 5px;
+}
+.izenda-Sidebar .context-menu a {
+  color: #333;
+  padding: 15px 10px 15px 5px;
+  display: block;
+}
+
+.izenda-Sidebar .context-menu a.active,
+.izenda-Sidebar .context-menu a:hover,
+.izenda-Sidebar .context-menu a.active>i,
+.izenda-Sidebar .context-menu a:hover>i {
+  background-color: #FFFFFF;
+  color: #5B9BD1;
+}
+.izenda-NavIcon span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 50%;
+  background: #5B9BD1;
+  opacity: 1;
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: .1s ease-in-out;
+  transition: .1s ease-in-out;
+}
+.izenda-FloatAffixed {
+  position: absolute;
+  pointer-events: auto;
+  z-index: 100000;
+}
+.izenda .btn-primary {
+  color: #FFF;
+  background-color:#5C9BD1;
+  border-color: #a1bfd3;
+}
+
+.izenda .btn-primary:focus,
+.izenda .btn-primary.focus {
+  color: #fff;
+  background-color: #6DBAE7;
+  border-color: #4e84a6;
+}
+
+.izenda .btn-primary:hover {
+  color: #fff;
+  background-color: #6DBAE7;
+  border-color: #77a3bf;
+}
+
+.izenda .btn-primary:active,
+.izenda .btn-primary.active,
+.open>.izenda .btn-primary.dropdown-toggle {
+  color: #1C4E89;
+  background-color: #6DBAE7;
+  border-color: #77a3bf;
+}
+
+.izenda .btn-primary:active:hover,
+.izenda .btn-primary:active:focus,
+.izenda .btn-primary:active.focus,
+.izenda .btn-primary.active:hover,
+.izenda .btn-primary.active:focus,
+.izenda .btn-primary.active.focus,
+.open>.izenda .btn-primary.dropdown-toggle:hover,
+.open>.izenda .btn-primary.dropdown-toggle:focus,
+.open>.izenda .btn-primary.dropdown-toggle.focus {
+  color: #1C4E89;
+  background-color: #77a3bf;
+  border-color: #4e84a6;
+}
+.izenda .btn-primary .badge {
+  color: #b2cbdb;
+  background-color: #1C4E89;
+}
+.izenda .btn-group.open .dropdown-toggle.btn-primary,
+.izenda .btn-group.open .dropdown-toggle.btn-primary:active,
+.izenda .btn-group.open .dropdown-toggle.btn-primary:hover {
+  background-color: #b2cbdb;
+  border-color: #a1bfd3;
+  color: #1C4E89;
+}
+
+.btn-active,
+.izenda-Button_active.btn,
+.izenda-Button_active.btn:focus,
+.izenda-Button_active.btn:active,
+.izenda-Button_active.btn:hover {
+  background-color: #1C4E89;
+  color: #fff;
+}
+
+.izenda .table {
+  margin: 0;
+}
+
+.izenda .table.default-table {
+  border: 1px solid #DEDEDE;
+  overflow: hidden;
+  background-color: #fff;
+  margin: 0;
+  border-radius: 8px 8px 0px 0px;
+}
+.izenda-IconMenu[aria-expanded] {
+    float: left;
+    left: 0;
+    background: #FFF;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    background-clip: padding-box;
+    margin-bottom: 10px;
+    -webkit-transition: left 0.3s;
+    transition: left 0.3s;
+  }
+  .izenda-Divider.vertical {
+  width: 100%;
+  text-align: center;
+  cursor: s-resize;
+  -webkit-transform: translate(0, 0) !important;
+      -ms-transform: translate(0, 0) !important;
+          transform: translate(0, 0) !important;
+  background-color: #FFF;
+}
+.izenda .expression-selection-panel .selectable,
+.izenda .expression-selection-panel a {
+  cursor: pointer;
+  color: #1C4E89;
+  text-decoration: none;
+}
+
+.izenda .expression-selection-panel .tabs-navigation {
+  background-color: #EEE;
+}
+
+.izenda .expression-selection-panel .body-table {
+  background-color: #E9ECF3;
+}
+
+.izenda .expression-selection-panel .overflow-text {
+  display: block;
+}
+
+.izenda .expression-selection-panel .default-table {
+  background-color: #E9ECF3;
+}
+.izenda .collapsible-list-items.panel-group {
+  margin-bottom: 0px;
+  background-color: #fff;
+}
+.izenda .background-modal {
+  background-color: #E9ECF3;
+}
+.izenda .tabs .tabs-menu-item a,
+.izenda .tabs .tabs-menu-item a:hover,
+.izenda .tabs .tabs-menu-item a:focus {
+  padding: 10px 20px;
+  border-left: none;
+  border-top: none;
+  border-radius: 8px, 0px;
+  margin-right: 0px;
+  color: #333;
+  border-right: 1px solid #DEDEDE;
+}
+
+.izenda .tabs .tabs-menu-item:not(.active) a:hover {
+  color: #1C4E89;
+}
+.izenda-UserMenu a,
+.izenda-UserMenu a:hover {
+  color: #333;
+}
+
+.izenda-UserMenu .izenda-UserMenu-Info a,
+.izenda-UserMenu .izenda-UserMenu-Info a:hover {
+  color: #333;
+  padding-right: 10px;
+}
+
+.u-bgDarkBlue {
+  background-color: #fff!important;
+}
+.izenda {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  line-height: normal;
+  font-size: 14px;
+  font-family: "Roboto";
+  background: #E9ECF3;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+}
+.izenda a {
+  color: #5B9BD1;
+  text-decoration: none;
+}
+.izenda .text-primary {
+  color: #E9ECF3;
+}
+.izenda .bg-primary {
+  background-color: #E9ECF3;
+}
+/*Izenda Blessed Edits End */
+/*Izenda UI CSS Edits Begin */
+
+.collapsible {
+    background-color: #fff;
+}
+.icon-setting {
+color: #337ab7 !important;
+}
+.izenda .disabled-elm,
+.izenda .disabled-link a,
+.izenda fieldset[disabled] .form-control,
+.izenda fieldset[disabled] .izenda-SearchTextBox .izenda-SearchTextBox-TextBox,
+.izenda-SearchTextBox .izenda fieldset[disabled] .izenda-SearchTextBox-TextBox,
+.izenda fieldset[disabled] button,
+.izenda fieldset[disabled] a {
+  color: #333;
+  pointer-events: none;
+}
+.izenda .dashboard-detail .table {
+  background-color: #E9ECF3;
+}
+.izenda .report-filter-item .filter-item-label {
+  background-color: #E9ECF3;
+  padding: 10px;
+}
+
+.izenda .izenda-Reports .tabs.left-tab .tabs-menu-item a {
+  border: none;
+  background: #5B9BD8;
+  text-transform: uppercase;
+}
+
+.izenda .izenda-Reports .tabs.left-tab .tabs-menu-item a:hover {
+  border: none;
+  color: #FFF;
+}
+
+.izenda .izenda-Reports .tabs.left-tab .tabs-menu-item:not(.active) a {
+  background: #6DA0D2;
+}
+
+.izenda .izenda-Reports .tabs.left-tab .tabs-menu-item.active a {
+  background: #5B9BD8;
+  color: #FFF;
+}
+
+.izenda .report-history .default-table .izenda-ScrollBox {
+  background-color: #E9ECF3;
+}
+.izenda .izenda-ReportPartHeader_ContextMenu .izenda-ContextMenu-list li:hover {
+  background: #E9ECF3;
+}
+.izenda .izenda-ReportPartHeader_ContextMenu .izenda-ContextMenu-divider {
+  height: 1px;
+  overflow: hidden;
+  background-color: #E9ECF3;
+}
+.izenda .subscription-grid .table {
+  background-color: #FFF;
+}
+.izenda .izenda-DataModel-Middle a:hover,
+.izenda .izenda-DataModel-Middle a.active {
+  background-color: #F2F6F9;
+  color: #5B9BD1;
+}
+
+.izenda .izenda-SubTable .title {
+  width: 100%;
+  display: table;
+  background-color: #FFF;
+  padding: 5px;
+}
+
+.izenda .izenda-SubTable .title .content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.izenda .izenda-SubTable .title .db-name {
+  display: inline-block;
+  color: #1C4E89;
+}
+
+.izenda .izenda-SubTable .title button {
+  background-color: #5C9BD1;
+  color: #fff;
+}
+.izenda .izenda-SecurityPoliciesDetail .panel {
+  background: #E9ECF3;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.izenda .izenda-SettingLevel .form-inline {
+  padding: 5px 10px;
+  background: #E9ECF3;
+}
+
+/*Izenda UI CSS Edits End */
+
+.izenda-Sidebar .collapsible {
+  padding: 10px;
+  padding-left: 5px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.izenda .category-tree .izenda-LazyLoading {
+  color: #000;
+}
